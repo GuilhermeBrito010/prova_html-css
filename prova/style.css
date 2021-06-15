@@ -1,0 +1,270 @@
+body {
+    background: #242526;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(60, 134, 31);
+}
+/* menu */
+
+#menu {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: #1a1a1a;
+    left: 0%;
+    right: 0;
+}
+
+
+
+
+
+.dropbtn {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(32, 32, 32, 0.342);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  
+
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: #3e8e4144;}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+ 
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e4144;}
+
+    p {
+        margin: 20px;
+        text-align: center;
+    }
+
+
+/* div da esquerda */
+
+.texto {
+    position: fixed;
+    color: white;
+    bottom: 4%;
+    height: 200px;
+    left: 0%;
+    width: 23%;
+    border-right: 1px solid white;
+}
+
+.texto p {
+    text-align: left;
+}
+
+.texto img {
+    position: static;
+    top: 55%;
+    left: 5%;
+}
+
+@media screen and (max-width: 1090px) {
+    .texto {
+        max-width: 100%;
+        max-height: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .texto p {
+        transform: translateY(15px);
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .texto p {
+        transform: translateY(-15px);
+    }
+}
+
+
+/* div da direita */
+
+#direita {
+    position: fixed;
+    color: white;
+    bottom: 4%;
+    height: 200px;
+    right: 0%;
+    width: 23%;
+    border-left: 1px solid white
+}
+
+@media screen and (max-width: 1090px) {
+    #direita {
+        max-width: 100%;
+        max-height: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #direita p {
+        transform: translateY(15px);
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #direita p {
+        transform: translateY(-15px);
+    }
+}
+
+
+/* div da meio1 */
+
+#direitam {
+    position: fixed;
+    color: white;
+    bottom: 4%;
+    right: 27%;
+    width: 23%;
+    height: 200px;
+    border-left: 1px solid white ;
+    
+
+}
+
+@media screen and (max-width: 1090px) {
+    #direitam {
+        max-width: 100%;
+        max-height: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #direitam p {
+        transform: translateY(15px);
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #direitam p {
+        transform: translateY(-15px);
+    }
+}
+
+
+/* div da meio2 */
+
+#direital {
+    position: fixed;
+    color: white;
+    bottom: 4%;
+    height: 200px;
+    left: 25%;
+    width: 23%;
+    border: none;
+}
+
+@media screen and (max-width: 1090px) {
+    #direital {
+        max-width: 100%;
+        max-height: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #direital p {
+        transform: translateY(15px);
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #direital p {
+        transform: translateY(-15px);
+    }
+}
+
+#capivara{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    border-radius: 15px;
+
+}
+
+#capivara img{
+    
+  
+    border-radius: 50px;
+    box-shadow: 10px 1px 15px 4px #1a1a1a;
+}
+
+@media screen and (max-width: 320px) {
+    #capivara img{
+        width: 0;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #capivara img{
+        height: 0;
+    }
+}
+
+
+@media screen and (max-width:620px) {
+    h1{
+        font-size: 0%;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    h1{
+        font-size: 0%;
+    }
+}
+
+
+
+
+
+
+
+
